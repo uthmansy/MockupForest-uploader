@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* === File structure === */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* === Environment === */
+    "module": "NodeNext", // modern Node-style modules
+    "moduleResolution": "NodeNext",
+    "target": "ES2020", // modern JS, still widely supported
+    "lib": ["ES2020"],
+    "types": ["node"], // add Node types
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
+    /* === Output === */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* === Type Safety === */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* === Module Syntax === */
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true
+
+    /* === Optional strictness you can enable === */
+    // "noImplicitReturns": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
